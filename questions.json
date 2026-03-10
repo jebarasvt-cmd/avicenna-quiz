@@ -1,0 +1,274 @@
+[
+{
+"id":1,
+"theme":"Culture générale",
+"question":"Quelle est la capitale du Canada ?",
+"choices":["Toronto","Montréal","Ottawa","Vancouver"],
+"answerIndex":2,
+"points":10,
+"duration":20
+},
+{
+"id":2,
+"theme":"Culture générale",
+"question":"Combien y a-t-il de continents sur Terre ?",
+"choices":["5","6","7","8"],
+"answerIndex":2,
+"points":10,
+"duration":20
+},
+{
+"id":3,
+"theme":"Culture générale",
+"question":"Quel est l'animal terrestre le plus rapide du monde ?",
+"choices":["Lion","Guépard","Tigre","Antilope"],
+"answerIndex":1,
+"points":10,
+"duration":20
+},
+{
+"id":4,
+"theme":"Culture générale",
+"question":"Dans quel pays se trouve la Statue de la Liberté ?",
+"choices":["États-Unis","Canada","Angleterre","France"],
+"answerIndex":0,
+"points":10,
+"duration":20
+},
+{
+"id":5,
+"theme":"Culture générale",
+"question":"Quel océan est le plus grand du monde ?",
+"choices":["Atlantique","Indien","Pacifique","Arctique"],
+"answerIndex":2,
+"points":10,
+"duration":20
+},
+{
+"id":6,
+"theme":"Culture générale",
+"question":"Quelle est la plus haute montagne d’Afrique ?",
+"choices":["Mont Atlas","Mont Kilimandjaro","Mont Kenya","Mont Toubkal"],
+"answerIndex":1,
+"points":10,
+"duration":20
+},
+{
+"id":7,
+"theme":"Culture générale",
+"question":"Combien de couleurs possède l'arc-en-ciel ?",
+"choices":["5","6","7","8"],
+"answerIndex":2,
+"points":10,
+"duration":20
+},
+{
+"id":8,
+"theme":"Culture générale",
+"question":"Quelle est la hauteur du Mont Toubkal ?",
+"choices":["3167 m","4167 m","5167 m","6167 m"],
+"answerIndex":1,
+"points":10,
+"duration":20
+},
+{
+"id":9,
+"theme":"Culture générale",
+"question":"Quel est le plus long fleuve du Maroc ?",
+"choices":["Sebou","Oum Er-Rbia","Bouregreg","Tensift"],
+"answerIndex":1,
+"points":10,
+"duration":20
+},
+{
+"id":10,
+"theme":"Culture générale",
+"question":"Environ combien d’habitants compte le Maroc ?",
+"choices":["27 millions","37 millions","47 millions","57 millions"],
+"answerIndex":1,
+"points":10,
+"duration":20
+},
+
+{
+"id":11,
+"theme":"Religion",
+"question":"Combien y a-t-il de piliers de l'Islam ?",
+"choices":["3","4","5","6"],
+"answerIndex":2,
+"points":10,
+"duration":20
+},
+{
+"id":12,
+"theme":"Religion",
+"question":"Quelle est la troisième sourate du Coran ?",
+"choices":["Al-Baqara","Al-Imran","An-Nisa","Al-Maida"],
+"answerIndex":1,
+"points":10,
+"duration":20
+},
+{
+"id":13,
+"theme":"Religion",
+"question":"Combien de versets contient la sourate Al-Fatiha ?",
+"choices":["5","6","7","8"],
+"answerIndex":2,
+"points":10,
+"duration":20
+},
+{
+"id":14,
+"theme":"Religion",
+"question":"Quel prophète guérissait les malades par la permission d'Allah ?",
+"choices":["Isa","Dawud","Yusuf","Nuh"],
+"answerIndex":0,
+"points":10,
+"duration":20
+},
+{
+"id":15,
+"theme":"Religion",
+"question":"Quel livre a été révélé au prophète Moussa ?",
+"choices":["Le Coran","La Torah","Le Zabour","L'Injil"],
+"answerIndex":1,
+"points":10,
+"duration":20
+},
+{
+"id":16,
+"theme":"Religion",
+"question":"Dans quelle ville se trouve la mosquée Al-Aqsa ?",
+"choices":["La Mecque","Médine","El Qods","Le Caire"],
+"answerIndex":2,
+"points":10,
+"duration":20
+},
+{
+"id":17,
+"theme":"Religion",
+"question":"Combien de prophètes sont mentionnés dans le Coran ?",
+"choices":["20","25","30","40"],
+"answerIndex":1,
+"points":10,
+"duration":20
+},
+{
+"id":18,
+"theme":"Religion",
+"question":"Quel prophète est surnommé 'Khalil Allah' (l'ami d'Allah) ?",
+"choices":["Moussa","Ibrahim","Nuh","Yusuf"],
+"answerIndex":1,
+"points":10,
+"duration":20
+},
+{
+"id":19,
+"theme":"Religion",
+"question":"Combien de sourates contient le Coran ?",
+"choices":["100","110","114","120"],
+"answerIndex":2,
+"points":10,
+"duration":20
+},
+{
+"id":20,
+"theme":"Religion",
+"question":"Quel ange a transmis la révélation au prophète Mohammed ?",
+"choices":["Mikail","Israfil","Jibril","Azrail"],
+"answerIndex":2,
+"points":10,
+"duration":20
+},
+
+{
+"id":21,
+"theme":"Science",
+"question":"Quel instrument permet de mesurer l'humidité de l'air ?",
+"choices":["Baromètre","Thermomètre","Hygromètre","Anémomètre"],
+"answerIndex":2,
+"points":10,
+"duration":20
+},
+{
+"id":22,
+"theme":"Science",
+"question":"Quel gaz les plantes absorbent-elles principalement ?",
+"choices":["Oxygène","Azote","Dioxyde de carbone","Hydrogène"],
+"answerIndex":2,
+"points":10,
+"duration":20
+},
+{
+"id":23,
+"theme":"Science",
+"question":"Quelle planète est la plus proche du Soleil ?",
+"choices":["Mercure","Vénus","Terre","Mars"],
+"answerIndex":0,
+"points":10,
+"duration":20
+},
+{
+"id":24,
+"theme":"Science",
+"question":"Combien de dents possède normalement un adulte ?",
+"choices":["28","30","32","36"],
+"answerIndex":2,
+"points":10,
+"duration":20
+},
+{
+"id":25,
+"theme":"Science",
+"question":"Quel instrument permet de mesurer la pression atmosphérique ?",
+"choices":["Baromètre","Thermomètre","Hygromètre","Anémomètre"],
+"answerIndex":0,
+"points":10,
+"duration":20
+},
+{
+"id":26,
+"theme":"Science",
+"question":"Quelle est la formule chimique de l'eau ?",
+"choices":["CO2","H2O","O2","NaCl"],
+"answerIndex":1,
+"points":10,
+"duration":20
+},
+{
+"id":27,
+"theme":"Science",
+"question":"Quelle est la force qui nous attire vers la Terre ?",
+"choices":["Magnétisme","Gravité","Pression","Électricité"],
+"answerIndex":1,
+"points":10,
+"duration":20
+},
+{
+"id":28,
+"theme":"Science",
+"question":"Quel organe du corps humain produit la bile ?",
+"choices":["Le foie","Le cœur","Les poumons","Les reins"],
+"answerIndex":0,
+"points":10,
+"duration":20
+},
+{
+"id":29,
+"theme":"Science",
+"question":"Quelle planète est appelée la planète rouge ?",
+"choices":["Mars","Jupiter","Saturne","Mercure"],
+"answerIndex":0,
+"points":10,
+"duration":20
+},
+{
+"id":30,
+"theme":"Science",
+"question":"Combien de planètes composent le système solaire ?",
+"choices":["7","8","9","10"],
+"answerIndex":1,
+"points":10,
+"duration":20
+}
+]

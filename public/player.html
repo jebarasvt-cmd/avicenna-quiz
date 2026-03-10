@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Équipe - Quiz Local</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body class="player-page">
+  <div class="player-shell">
+    <div class="card join-card" id="joinCard">
+      <h1>Connexion équipe</h1>
+
+      <label for="teamId">ID équipe</label>
+      <input id="teamId" placeholder="ex : equipe1" />
+
+      <label for="teamName">Nom affiché</label>
+      <input id="teamName" placeholder="ex : Les Titans" />
+
+      <button id="joinBtn">Rejoindre</button>
+    </div>
+
+    <div id="gameArea" class="player-game" style="display:none;">
+      <div class="player-topbar card">
+        <div class="player-team-block">
+          <div class="player-label">Équipe</div>
+          <div id="teamDisplay" class="player-team-name"></div>
+        </div>
+
+        <div class="player-top-meta">
+          <div class="player-score-badge">
+            Score : <span id="score">0</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card player-status-card" id="statusCard">
+        <h2 id="statusTitle">En attente...</h2>
+        <p id="statusText" class="muted">
+          L’animateur n’a pas encore lancé de question.
+        </p>
+      </div>
+
+      <div class="card player-question-card" id="questionCard" style="display:none;">
+        <div class="player-question-head">
+          <span class="badge player-theme-badge" id="themeBadge"></span>
+        </div>
+
+        <h2 class="player-question-text" id="questionText"></h2>
+
+        <div id="choicesList" class="player-choices"></div>
+
+        <button id="submitBtn" class="player-submit-btn" disabled>
+          Valider la réponse
+        </button>
+
+        <div id="answerSentBox" class="answer-sent-box" style="display:none;">
+          Réponse envoyée
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/player.js"></script>
+</body>
+</html>

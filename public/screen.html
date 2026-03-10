@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Écran principal - Quiz Local</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="app-shell">
+
+    <header class="top-bar">
+      <div class="logo-center">
+        <img src="av.png" class="logo-img" alt="Logo">
+      </div>
+    </header>
+
+    <section class="rounds-bar">
+  <button class="round-pill active" type="button" data-round="1" data-theme="Culture générale">Round 1</button>
+  <button class="round-pill" type="button" data-round="2" data-theme="Religion">Round 2</button>
+  <button class="round-pill" type="button" data-round="3" data-theme="Science">Round 3</button>
+</section>
+
+    <main class="layout-3cols">
+
+      <aside class="left-panel">
+        <div class="panel-card">
+          <h2 class="panel-title">Contrôle</h2>
+
+
+          <div class="field-group">
+            <label for="questionSelect">Question</label>
+            <select id="questionSelect"></select>
+          </div>
+
+          <div class="actions-vertical">
+            <button id="startBtn" class="action-btn primary">Lancer</button>
+            <button id="revealBtn" class="action-btn warning">Révéler</button>
+            <button id="nextBtn" class="action-btn secondary">Question suivante</button>
+            <button id="resetBtn" class="action-btn danger">Réinitialiser</button>
+          </div>
+        </div>
+      </aside>
+
+      <section class="center-panel">
+
+        <!-- éléments cachés mais nécessaires au JS -->
+        <div class="status-hidden">
+          <span id="roundBadge">Round libre</span>
+          <span id="phaseText">En attente...</span>
+          <span id="phaseSubtext">Les équipes répondront depuis leurs téléphones.</span>
+        </div>
+
+        <div id="waitingStage" class="waiting-stage">
+          <div class="waiting-card">
+            <div id="waitingIcon" class="waiting-icon">
+              <i class="fa-solid fa-bullseye"></i>
+            </div>
+            <h2 id="waitingTitle">Question en attente</h2>
+            <p id="waitingSubtitle">Les équipes recevront la prochaine question sur leurs téléphones.</p>
+          </div>
+        </div>
+
+        <div id="questionBlock" class="question-block" style="display:none;">
+          <div class="question-header-row">
+            <span id="screenTheme" class="theme-chip">Thème</span>
+          </div>
+
+          <div class="question-card">
+            <h2 id="screenQuestion" class="question-text"></h2>
+          </div>
+
+          <div id="screenChoices" class="answers-grid"></div>
+
+          <div id="questionCounter"
+     style="display:block;
+            width:fit-content;
+            margin:25px auto 0 auto;
+            text-align:center;
+            font-size:1.1rem;
+            font-weight:700;
+            color:#f7f6f0;
+            letter-spacing:1px;">
+  Question 1 / 10
+</div>
+
+      </section>
+
+      <aside class="right-panel">
+        <div class="panel-card leaderboard-card">
+          <h2 class="panel-title">Classement</h2>
+          <div id="scoreboard"></div>
+        </div>
+      </aside>
+
+    </main>
+
+    <!-- cachés mais nécessaires au JS -->
+    <div id="timerBox" style="display:none;">
+      <div id="timerLabel">Temps restant</div>
+      <div id="timerValue">20</div>
+      <div class="timer-bar">
+        <div id="timerFill"></div>
+      </div>
+    </div>
+
+  </div>
+
+<div id="roundFlash"></div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/screen.js"></script>
+</body>
+</html>
